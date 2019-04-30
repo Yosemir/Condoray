@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+        <title>Facelet Title</title>
+        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed|IBM+Plex+Sans:400,700" rel="stylesheet"/>
+        <link rel="stylesheet" href="styles/base.0.0.4.css"/>
+        <link rel="stylesheet" href="styles/default.0.0.4.css"/>
+        <link rel="stylesheet" href="styles/chat.0.0.4.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'/>
+        <link rel="stylesheet" href="styles/style.css"/>
+    </h:head>
+    <h:body>
+
+        <div class="floating-chat">
+            <i class="fa fa-comments" aria-hidden="true"></i>
+            <div class="chat">
+                <div class="header">
+                    <span class="title">
+                        what's on your mind?
+                    </span>
+                    <button>
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <div class="footer">
+                    <div class="text-box"  disabled="false">
+                        <div class='Chat__holder'>
+                            <div class='Chat__body'></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+
+
+        <script  src="js/index.js"></script>
+
+        <script src="js/ibm.chat.0.0.4.js"></script>
+        <script>
+            const config = {
+                bot_image: 'https://pbs.twimg.com/profile_images/1081178168139173888/gu-s0K9T_400x400.jpg',
+                bot_name: 'Bot',
+                debug: true,
+                element: document.querySelector('.Chat__body'),
+                integration_id: '18e32369-2b3d-403e-ad92-f1fa35e66bc0',
+                post_url: 'https://assistant-chat-us-south.watsonplatform.net/public/message/'
+            };
+            const chat = new WatsonChat(config);
+        </script>
+    </h:body>
+</html>
+

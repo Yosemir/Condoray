@@ -1,0 +1,1686 @@
+{
+  "name": "Demo",
+  "intents": [
+    {
+      "intent": "Saludo",
+      "examples": [
+        {
+          "text": "Hola"
+        },
+        {
+          "text": "men"
+        },
+        {
+          "text": "oye"
+        },
+        {
+          "text": "buenas"
+        },
+        {
+          "text": "que tal"
+        },
+        {
+          "text": "Hols"
+        },
+        {
+          "text": "Consulta"
+        },
+        {
+          "text": "ola"
+        },
+        {
+          "text": "Buenas tardes"
+        },
+        {
+          "text": "Buenos dias"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Traslado",
+      "examples": [
+        {
+          "text": "Traslado"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "VerificarAdmi",
+      "examples": [
+        {
+          "text": "Verificar"
+        },
+        {
+          "text": "Comprobar"
+        },
+        {
+          "text": "Costatar"
+        },
+        {
+          "text": "Corroborar"
+        },
+        {
+          "text": "Confirmar"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "InicioClass",
+      "examples": [
+        {
+          "text": "comienzo"
+        },
+        {
+          "text": "comienzan"
+        },
+        {
+          "text": "Inicio"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Comite",
+      "examples": [
+        {
+          "text": "Comite"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Informacion",
+      "examples": [
+        {
+          "text": "Informe"
+        },
+        {
+          "text": "informacion"
+        },
+        {
+          "text": "Info"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Realiza",
+      "examples": [
+        {
+          "text": "efectuar"
+        },
+        {
+          "text": "hacer"
+        },
+        {
+          "text": "realizar"
+        },
+        {
+          "text": "Realiza"
+        },
+        {
+          "text": "desempeñar"
+        },
+        {
+          "text": "executor"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "PorQueCondoray",
+      "examples": [
+        {
+          "text": "Debo"
+        },
+        {
+          "text": "Deberia"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "SinRendirExam",
+      "examples": [
+        {
+          "text": "Sin"
+        },
+        {
+          "text": "Rendir"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Despedida",
+      "examples": [
+        {
+          "text": "Adios"
+        },
+        {
+          "text": "Nos vemos"
+        },
+        {
+          "text": "Bye"
+        },
+        {
+          "text": "Gracias"
+        },
+        {
+          "text": "chau"
+        },
+        {
+          "text": "Hasta luego"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "inscripcion",
+      "examples": [
+        {
+          "text": "Matricularse"
+        },
+        {
+          "text": "inscripción"
+        }
+      ],
+      "description": "Donde puede hacer la inscripción"
+    },
+    {
+      "intent": "Cambio",
+      "examples": [
+        {
+          "text": "Traslado"
+        },
+        {
+          "text": "Cambio"
+        },
+        {
+          "text": "Quiero cambiarme de carrera"
+        },
+        {
+          "text": "Cambiarme"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "UbicaInst",
+      "examples": [
+        {
+          "text": "ubica"
+        },
+        {
+          "text": "¿Donde se ubica el instituto?"
+        },
+        {
+          "text": "localización"
+        },
+        {
+          "text": "localizacion"
+        },
+        {
+          "text": "posición"
+        },
+        {
+          "text": "posicion"
+        },
+        {
+          "text": "ubicacion"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "DurCarrera",
+      "examples": [
+        {
+          "text": "Dura"
+        },
+        {
+          "text": "Duracion"
+        }
+      ]
+    },
+    {
+      "intent": "Estructura",
+      "examples": [
+        {
+          "text": "Estructura"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Tipodecosto",
+      "examples": [
+        {
+          "text": "coste"
+        },
+        {
+          "text": "valor"
+        },
+        {
+          "text": "precio"
+        },
+        {
+          "text": "costo"
+        },
+        {
+          "text": "cuesta"
+        },
+        {
+          "text": "precios"
+        },
+        {
+          "text": "tarifa"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Modalidad",
+      "examples": [
+        {
+          "text": "forma"
+        },
+        {
+          "text": "Modalidad"
+        },
+        {
+          "text": "Modalidades"
+        },
+        {
+          "text": "manera"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Si",
+      "examples": [
+        {
+          "text": "Si"
+        },
+        {
+          "text": "Claro"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Demo",
+      "examples": [
+        {
+          "text": "Demo"
+        },
+        {
+          "text": "prueba"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "CursandoCuarto",
+      "examples": [
+        {
+          "text": "Cuarto"
+        },
+        {
+          "text": "4to"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "BeneficioCondoray",
+      "examples": [
+        {
+          "text": "Beneficio"
+        },
+        {
+          "text": "mejor"
+        },
+        {
+          "text": "beneficia"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Postular",
+      "examples": [
+        {
+          "text": "Postular"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "No",
+      "examples": [
+        {
+          "text": "Nop"
+        },
+        {
+          "text": "No"
+        },
+        {
+          "text": "No deseo"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "CalendarioAcade",
+      "examples": [
+        {
+          "text": "Academico"
+        },
+        {
+          "text": "calendario"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Titulo_Nom_De_La_Nacio",
+      "examples": [
+        {
+          "text": "Titulo"
+        },
+        {
+          "text": "Nacion"
+        }
+      ],
+      "description": "Titulos a nombre de la nacion"
+    },
+    {
+      "intent": "Term_La_Carrera",
+      "examples": [
+        {
+          "text": "Termino"
+        },
+        {
+          "text": "concluir"
+        },
+        {
+          "text": "acabar"
+        },
+        {
+          "text": "Terminar"
+        },
+        {
+          "text": "Finalizar"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Mixto",
+      "examples": [
+        {
+          "text": "Mixto"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "LlevarExam",
+      "examples": [
+        {
+          "text": "llevar"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "RequisitosAdmi",
+      "examples": [
+        {
+          "text": "<font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">necesito</font></font>"
+        },
+        {
+          "text": "Requisitos"
+        },
+        {
+          "text": "requerimiento"
+        },
+        {
+          "text": "Condicion"
+        },
+        {
+          "text": "condición"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "PagoPartes",
+      "examples": [
+        {
+          "text": "Partes"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "PagoBanco",
+      "examples": [
+        {
+          "text": "liquidacion"
+        },
+        {
+          "text": "Cuenta"
+        },
+        {
+          "text": "banco"
+        },
+        {
+          "text": "pegar"
+        },
+        {
+          "text": "liquidación"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Carreras",
+      "examples": [
+        {
+          "text": "Carreras"
+        },
+        {
+          "text": "carrera"
+        },
+        {
+          "text": "<font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">Tiene</font></font>"
+        },
+        {
+          "text": "<font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">Ofrece</font></font>"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "CostoExaAdmi",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "CostAdmi",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CostCont",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Carreras",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Contabilidad",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Administracion",
+          "synonyms": [
+            "admi"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Costos",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Examen",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mensualidad",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Carreras",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Contamos con 2 carreras 🎓 📓"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Administración 👩‍💼 de Servicios de Hotelería 🏨   y Restaurantes🍝🥗🍛"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "source": "https://scontent.flim19-1.fna.fbcdn.net/v/t1.0-9/53160492_1833115420126276_7949517636310663168_n.jpg?_nc_cat=108&_nc_ht=scontent.flim19-1.fna&oh=0ed0deee523d9424e056f3043a2c02f1&oe=5D3A1D31",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "📒 Contabilidad 🔢"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "source": "https://scontent.flim19-1.fna.fbcdn.net/v/t1.0-9/53289861_1825009017603583_7355766410825433088_n.jpg?_nc_cat=105&_nc_ht=scontent.flim19-1.fna&oh=d3ba8d88f386971c6b22c8d99925cff0&oe=5D34D3F2",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_1_1556573326966",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1556553906852"
+      },
+      "conditions": "#Carreras",
+      "dialog_node": "node_2_1556547287484",
+      "previous_sibling": "node_4_1556560898241"
+    },
+    {
+      "type": "standard",
+      "title": "CambioCarrera",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tienes que haber concluido satisfactoriamente el primer periodo académico y presentar una solicitud al área académica"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1556573326966",
+      "metadata": {},
+      "conditions": "#Cambio",
+      "dialog_node": "node_3_1556560521288",
+      "previous_sibling": "node_2_1554723173867"
+    },
+    {
+      "type": "standard",
+      "title": "Preguntar",
+      "output": {
+        "generic": [
+          {
+            "title": "¿Quisieras saber más sobre nuestras carreras?🤔😊",
+            "options": [
+              {
+                "label": "Si 😃",
+                "value": {
+                  "input": {
+                    "text": "Si"
+                  }
+                }
+              },
+              {
+                "label": "No  😟",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1556573326966",
+      "metadata": {},
+      "dialog_node": "node_1_1556553906852",
+      "previous_sibling": "node_2_1556547287484"
+    },
+    {
+      "type": "standard",
+      "title": "NoDeseMasInfo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Hay otro tema que pueda ayudarte? 🤔"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1556573326966",
+      "metadata": {},
+      "conditions": "#No",
+      "dialog_node": "node_1_1553103518381",
+      "previous_sibling": "node_1_1556553906852"
+    },
+    {
+      "type": "standard",
+      "title": "TipInfo",
+      "output": {
+        "generic": [
+          {
+            "title": "¿Que tipo de información desea ?",
+            "options": [
+              {
+                "label": "Carreras",
+                "value": {
+                  "input": {
+                    "text": "Carreras"
+                  }
+                }
+              },
+              {
+                "label": "Costos",
+                "value": {
+                  "input": {
+                    "text": "Costo"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1556573326966",
+      "metadata": {},
+      "conditions": "#Informacion",
+      "dialog_node": "node_1_1554810165692",
+      "previous_sibling": "node_2_1553272746700"
+    },
+    {
+      "type": "standard",
+      "title": "InfoDeCarre",
+      "output": {
+        "generic": [
+          {
+            "title": "¿Qué Carrera te interesa?",
+            "options": [
+              {
+                "label": "Contabilidad",
+                "value": {
+                  "input": {
+                    "text": "Contabilidad"
+                  }
+                }
+              },
+              {
+                "label": "Adm. Hotelería Rest.",
+                "value": {
+                  "input": {
+                    "text": "Administracion"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1556573326966",
+      "metadata": {},
+      "conditions": "#Si",
+      "dialog_node": "node_2_1553272746700",
+      "previous_sibling": "node_1_1553103518381"
+    },
+    {
+      "type": "standard",
+      "title": "OpcionesCost",
+      "output": {
+        "generic": [
+          {
+            "title": "¿De que quisiera saber el costo?",
+            "options": [
+              {
+                "label": "Mensualidad",
+                "value": {
+                  "input": {
+                    "text": "Mensualidad"
+                  }
+                }
+              },
+              {
+                "label": "Examen de admisión",
+                "value": {
+                  "input": {
+                    "text": "Examen"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1556573326966",
+      "metadata": {},
+      "conditions": "#Tipodecosto",
+      "dialog_node": "node_2_1554723173867",
+      "previous_sibling": "node_1_1554810165692"
+    },
+    {
+      "type": "standard",
+      "title": "DuracionCarrera",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Las carreras tienen una duración de 3 años 😃"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1556573326966",
+      "metadata": {},
+      "conditions": "#DurCarrera",
+      "dialog_node": "node_4_1556560898241"
+    },
+    {
+      "type": "standard",
+      "title": "ComiteInst",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Directora General"
+              },
+              {
+                "text": "Jefa de Unidad Académica"
+              },
+              {
+                "text": "Secretaria General"
+              },
+              {
+                "text": "Docentes"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_2_1556573773493",
+      "metadata": {},
+      "conditions": "#Comite",
+      "dialog_node": "node_1_1556640059955",
+      "previous_sibling": "node_9_1556602814428"
+    },
+    {
+      "type": "standard",
+      "title": "ModalidadExamen",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Examen de admisión ordinario o por exoneración"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1556573773493",
+      "metadata": {},
+      "conditions": "#Modalidad",
+      "dialog_node": "node_5_1556596177071",
+      "previous_sibling": "node_1_1553609432025"
+    },
+    {
+      "type": "standard",
+      "title": "Postular",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Por el momento no hay límite para postular"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1556573773493",
+      "metadata": {},
+      "conditions": "#Postular",
+      "dialog_node": "node_2_1556574228645",
+      "previous_sibling": "node_4_1556596099628"
+    },
+    {
+      "type": "standard",
+      "title": "Inscripcion",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para poder realizar la inscripción tienes que acercarte al instituto "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1556573773493",
+      "metadata": {},
+      "conditions": "#inscripcion",
+      "dialog_node": "node_4_1556596099628",
+      "previous_sibling": "node_5_1556596177071"
+    },
+    {
+      "type": "standard",
+      "title": "RequisitosAd",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "*Solicitud dirigida a la Directora según modelo"
+              },
+              {
+                "text": "*Partida de nacimiento original en buen estado y sin enmendaduras."
+              },
+              {
+                "text": "*Fotocopia de DNI fedateada por la Directora del Instituto."
+              },
+              {
+                "text": "*Certificados oficiales de estudios de 1ro a 5to año de secundaria."
+              },
+              {
+                "text": "*Certificado de Conducta del colegio."
+              },
+              {
+                "text": "*Seis fotografías tamaño carnet de frente, a color, de buena calidad y actuales."
+              },
+              {
+                "text": "*Toda la documentación deberá ser presentado en un folder manila tamaño A4, color crema"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_2_1556573773493",
+      "metadata": {},
+      "conditions": "#RequisitosAdmi",
+      "dialog_node": "node_1_1553609432025",
+      "previous_sibling": "node_1_1553100822740"
+    },
+    {
+      "type": "standard",
+      "title": "RealiExam",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Primer examen de amisión: Marzo"
+              },
+              {
+                "text": "Segundo examen de admisión: Julio"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_2_1556573773493",
+      "metadata": {},
+      "conditions": "#Realiza",
+      "dialog_node": "node_6_1556597799498",
+      "previous_sibling": "node_2_1556574228645"
+    },
+    {
+      "type": "standard",
+      "title": "Estructura",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Razonamiento Matemático, Razonamiento verbal, Cultura general"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1556573773493",
+      "metadata": {},
+      "conditions": "#Estructura",
+      "dialog_node": "node_9_1556602814428",
+      "previous_sibling": "node_6_1556597799498"
+    },
+    {
+      "type": "standard",
+      "title": "VerifAdmi",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Los resultados son publicados el mismo día en la página del Facebook institucional y en el panel informativo del instituto"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1556573773493",
+      "metadata": {},
+      "conditions": "#VerificarAdmi",
+      "dialog_node": "node_2_1556640186036",
+      "previous_sibling": "node_1_1556640059955"
+    },
+    {
+      "type": "standard",
+      "title": "CostoExam",
+      "output": {
+        "generic": [
+          {
+            "title": "De qué carrera desea saber el precio",
+            "options": [
+              {
+                "label": "Administración",
+                "value": {
+                  "input": {
+                    "text": "CostAdmi"
+                  }
+                }
+              },
+              {
+                "label": "Contabilidad",
+                "value": {
+                  "input": {
+                    "text": "CostCont"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1556573773493",
+      "metadata": {},
+      "conditions": "@Costos:Examen",
+      "dialog_node": "node_1_1553100822740"
+    },
+    {
+      "type": "standard",
+      "title": "InfoAdministracion",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La Duración de la Carrera es de 3 años "
+              },
+              {
+                "text": "Profesional Técnico en ADMINISTRACIÓN DE SERVICIOS DE HOSTELERÍA Y RESTAURANTES"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Qué harás?\nSupervisarás áreas de servicio de un hotel o restaurante. \nDesempeñarás funciones administrativas y operativas en las diferentes tipos de empresas hosteleras. \nFormar y dirigir tu propia empresa"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Dónde podrás trabajar?\nEstablecimientos de hospedaje en general, alimentos y bebidas (restaurantes, cafeterías y catering).\nEmpresas organizadoras de eventos.\nEmpresas de servicios de salud."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1553272746700",
+      "metadata": {},
+      "conditions": "@Carreras:Administracion",
+      "dialog_node": "node_2_1554741984088",
+      "previous_sibling": "node_1_1554741808675"
+    },
+    {
+      "type": "standard",
+      "title": "InfoContabilidad",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La Duración de la Carrera es de 3 años "
+              },
+              {
+                "text": "TÍTULO: Profesional Técnico en Contabilidad"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Qué harás?\nProcesa y entrega información contable, financiera tributaria y de remuneraciones a los distintos departamentos y directivos, para que realicen una buena planificación y control de las actividades de \nla organización."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Dónde podrás trabajar? \nEmpresas industriales, comerciales y de servicios.\nInstituciones públicas.\nEstudios de asesoría contable, financiera y tributaria.\nÁreas de auditoria, recaudación, finanzas, créditos, entre otros.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1553272746700",
+      "metadata": {},
+      "conditions": "@Carreras:Contabilidad",
+      "dialog_node": "node_1_1554741808675"
+    },
+    {
+      "type": "standard",
+      "title": "Examen de Hoteleria",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El precio para el examen de admisión es S/ 220"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1553100822740",
+      "metadata": {},
+      "conditions": "@CostoExaAdmi:CostCont",
+      "dialog_node": "node_3_1553101239011",
+      "previous_sibling": "node_2_1553100882067"
+    },
+    {
+      "type": "standard",
+      "title": "Examen de contabilidad",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El precio para el examen de admisión es S/ 200"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1553100822740",
+      "metadata": {},
+      "conditions": "@CostoExaAdmi:CostCont",
+      "dialog_node": "node_2_1553100882067"
+    },
+    {
+      "type": "standard",
+      "title": "Mixto",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El instituto no es mixto"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1556573934024",
+      "metadata": {},
+      "conditions": "#Mixto",
+      "dialog_node": "node_5_1556640808059",
+      "previous_sibling": "node_4_1556640477651"
+    },
+    {
+      "type": "standard",
+      "title": "TemrinarLaCarrera",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Por cada año concluido satisfactoriamente, incluido prácticas, puedes solicitar certificado modular"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1556573934024",
+      "metadata": {},
+      "conditions": "#Term_La_Carrera",
+      "dialog_node": "node_3_1556584779295",
+      "previous_sibling": "node_2_1556584652707"
+    },
+    {
+      "type": "standard",
+      "title": "CursCuarto",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Si estás cursando 5° de secundaria puedes postular y en caso de ingresar reservar vacante para el próximo año, cuando hayas concluido estudios secundarios "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1556573934024",
+      "metadata": {},
+      "conditions": "#CursandoCuarto",
+      "dialog_node": "node_7_1556602368665",
+      "previous_sibling": "node_3_1556584779295"
+    },
+    {
+      "type": "standard",
+      "title": "Inicio",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Admisión 5 de agosto del presente año"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1556573934024",
+      "metadata": {},
+      "conditions": "#InicioClass",
+      "dialog_node": "node_4_1556640477651",
+      "previous_sibling": "node_3_1556640374676"
+    },
+    {
+      "type": "standard",
+      "title": "PagoBanco",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Puede solicitar el número de cuenta a través de nuestra página wsp 971155417 - 971155411"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1556573934024",
+      "metadata": {},
+      "conditions": "#PagoBanco",
+      "dialog_node": "node_1_1556584195071",
+      "previous_sibling": "node_1_1552315125412"
+    },
+    {
+      "type": "standard",
+      "title": "PorQueCondoray",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Más de 55 años educando a las jóvenes de nuestro país.  \nInserción Laboral\n80% de nuestras egresadas trabajan\nPrácticas\nCentro de prácticas de hostelería\n100% propio\nque asemeja a un hotel escuela"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1556573934024",
+      "metadata": {},
+      "conditions": "#PorQueCondoray",
+      "dialog_node": "node_7_1556641092636",
+      "previous_sibling": "node_6_1556640890804"
+    },
+    {
+      "type": "standard",
+      "title": "SinRendirExam",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "- En caso de exoneración, siempre que no exceda el máximo de exonerados por carrera"
+              },
+              {
+                "text": "- Por traslado externo"
+              },
+              {
+                "text": "- Si tienes estudios superiores concluidos en otro programa de estudios"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_5_1556573934024",
+      "metadata": {},
+      "conditions": "#SinRendirExam",
+      "dialog_node": "node_8_1556602540619",
+      "previous_sibling": "node_7_1556602368665"
+    },
+    {
+      "type": "standard",
+      "title": "BeneficioCondoray",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "*Formación integral\n*Asesoramiento académico\n*Enseñanza personalizada\n*Prácticas profesionales en empresas de prestigio y Pasantías en el extranjero\n*Rápido acceso laboral a empresas de prestigio\n*Talleres equipados y modernas instalaciones"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1556573934024",
+      "metadata": {},
+      "conditions": "#BeneficioCondoray",
+      "dialog_node": "node_8_1556641242357",
+      "previous_sibling": "node_7_1556641092636"
+    },
+    {
+      "type": "standard",
+      "title": "PagoPorPartes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Cada periodo académico se paga en 5 cuotas, la primera conjuntamente con la matrícula según cronograma"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1556573934024",
+      "metadata": {},
+      "conditions": "#PagoPartes",
+      "dialog_node": "node_1_1556584393810",
+      "previous_sibling": "node_1_1556584195071"
+    },
+    {
+      "type": "standard",
+      "title": "TituloNom",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Si entregamos títulos a nombre de la nación "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1556573934024",
+      "metadata": {},
+      "conditions": "#Titulo_Nom_De_La_Nacio",
+      "dialog_node": "node_2_1556584652707",
+      "previous_sibling": "node_2_1553609887992"
+    },
+    {
+      "type": "standard",
+      "title": "UbicacionInst",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Avenida Condoray, San Vicente de Cañete"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1556573934024",
+      "metadata": {},
+      "conditions": "#UbicaInst",
+      "dialog_node": "node_2_1553609887992",
+      "previous_sibling": "node_1_1556584393810"
+    },
+    {
+      "type": "standard",
+      "title": "LlevarExam",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Carné de postulante"
+              },
+              {
+                "text": "DNI"
+              },
+              {
+                "text": "Lápiz 2B"
+              },
+              {
+                "text": "Borrador"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_5_1556573934024",
+      "metadata": {},
+      "conditions": "#LlevarExam",
+      "dialog_node": "node_3_1556640374676",
+      "previous_sibling": "node_8_1556602540619"
+    },
+    {
+      "type": "standard",
+      "title": "Traslado",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Se puede hacer una convalidación con el instituto "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1556573934024",
+      "metadata": {},
+      "conditions": "#Traslado",
+      "dialog_node": "node_6_1556640890804",
+      "previous_sibling": "node_5_1556640808059"
+    },
+    {
+      "type": "standard",
+      "title": "calendario",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Accediendo a la siguiente url: http://www.condoray.edu.pe/calendario-academico-2018/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1556573934024",
+      "metadata": {},
+      "conditions": "#CalendarioAcade",
+      "dialog_node": "node_1_1552315125412"
+    },
+    {
+      "type": "folder",
+      "title": "Admision",
+      "metadata": {},
+      "dialog_node": "node_2_1556573773493",
+      "previous_sibling": "node_1_1556573326966"
+    },
+    {
+      "type": "standard",
+      "title": "Error",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Lo siento, no entiendo lo que quieres decir.  ¿Deseas ver nuestras opciones?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1552467655683",
+      "previous_sibling": "node_1_1556437770414"
+    },
+    {
+      "type": "folder",
+      "title": "Carreras",
+      "metadata": {},
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1556573326966",
+      "previous_sibling": "node_1_1556547628339"
+    },
+    {
+      "type": "folder",
+      "title": "Informacion",
+      "metadata": {},
+      "dialog_node": "node_5_1556573934024",
+      "previous_sibling": "node_2_1556573773493"
+    },
+    {
+      "type": "standard",
+      "title": "Saludo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Cómo puedo ayudarte? 🤔"
+              },
+              {
+                "text": "Hola 😊"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Saludo",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1556547628339",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Demo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "https://youtu.be/TlI7qbbOVps"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "request": {
+          "args": {
+            "url_to_invoke": "https://youtu.be/TlI7qbbOVps"
+          },
+          "name": "Call_A_URL",
+          "result": "context.response"
+        },
+        "skip_user_input": true
+      },
+      "metadata": {},
+      "conditions": "#Demo",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1556437770414",
+      "previous_sibling": "node_1_1555018410611"
+    },
+    {
+      "type": "standard",
+      "title": "Despedida",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hasta luego, espero haberte ayudado 😊"
+              },
+              {
+                "text": "Hasta pronto, espero haberte servido 😊"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Despedida",
+      "dialog_node": "node_1_1555018410611",
+      "previous_sibling": "node_5_1556573934024"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Cómo puedo ayudarte? 🤔"
+              },
+              {
+                "text": "Hola 😊"
+              },
+              {
+                "text": "Muy buenas 😊"
+              },
+              {
+                "text": "Que tal ! , buen día 😊"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "workspace_id": "7cf83224-3342-41a8-979a-75042494e6cb",
+  "counterexamples": [],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    },
+    "spelling_auto_correct": false
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}

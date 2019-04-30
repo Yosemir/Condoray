@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  <title>Preview Link</title>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed|IBM+Plex+Sans:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="../WEB-INF/styles/base.0.0.4.css">
+  <link rel="stylesheet" href="../WEB-INF/styles/default.0.0.4.css">
+  <link rel="stylesheet" href="../WEB-INF/styles/chat.0.0.4.css">
+</head>
+<body>
+    
+  <div class='Chat__holder'>
+    <div class='Chat__body'></div>
+  </div>
+    <script src="../WEB-INF/js/ibm.chat.0.0.4.js"></script>
+  <script>
+    const config = {
+      bot_image: 'https://pbs.twimg.com/profile_images/1081178168139173888/gu-s0K9T_400x400.jpg',
+      bot_name: 'Bot',
+      debug: true,
+      element: document.querySelector('.Chat__body'),
+      integration_id: '18e32369-2b3d-403e-ad92-f1fa35e66bc0',
+      post_url: 'https://assistant-chat-us-south.watsonplatform.net/public/message/'
+    };
+    const chat = new WatsonChat(config);
+  </script>
+
+--------------------------------Demo--------------------
+
+</body>
+</html>
